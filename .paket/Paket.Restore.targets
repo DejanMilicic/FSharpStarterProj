@@ -180,9 +180,9 @@
 
     <PropertyGroup>
       <PaketReferencesCachedFilePath>$(PaketIntermediateOutputPath)\$(MSBuildProjectFile).paket.references.cached</PaketReferencesCachedFilePath>
-      <!-- MyProject.fsproj.paket.references has the highest precedence -->
+      <!-- App.fsproj.paket.references has the highest precedence -->
       <PaketOriginalReferencesFilePath>$(MSBuildProjectFullPath).paket.references</PaketOriginalReferencesFilePath>
-      <!-- MyProject.paket.references -->
+      <!-- App.paket.references -->
       <PaketOriginalReferencesFilePath Condition=" !Exists('$(PaketOriginalReferencesFilePath)')">$(MSBuildProjectDirectory)\$(MSBuildProjectName).paket.references</PaketOriginalReferencesFilePath>
       <!-- paket.references -->
       <PaketOriginalReferencesFilePath Condition=" !Exists('$(PaketOriginalReferencesFilePath)')">$(MSBuildProjectDirectory)\paket.references</PaketOriginalReferencesFilePath>
