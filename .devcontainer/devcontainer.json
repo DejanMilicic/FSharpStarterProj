@@ -48,9 +48,7 @@
 				"ionide.ionide-paket",
 				"ionide.ionide-fake",
 				"BRBoer.vsc-conceal",
-				"fernandoescolar.vscode-solution-explorer",
-				"github.copilot",
-				"github.copilot-labs"
+				"fernandoescolar.vscode-solution-explorer"
 			]
 		}
 	 },
