@@ -43,11 +43,9 @@
 				"ionide.ionide-fsharp",
 				"ionide.mechanic",
 				"alfonsogarciacaro.vscode-template-fsharp-highlight",
-				"alexkrechik.cucumberautocomplete",
 				"bierner.lit-html",
 				"ionide.ionide-paket",
 				"ionide.ionide-fake",
-				"BRBoer.vsc-conceal",
 				"fernandoescolar.vscode-solution-explorer"
 			]
 		}
