@@ -1,0 +1,8 @@
+source https://www.nuget.org/api/v2
+
+storage: none
+
+nuget Expecto
+nuget FSharp.Core
+nuget Microsoft.NET.Test.Sdk
+nuget YoloDev.Expecto.TestSdk
