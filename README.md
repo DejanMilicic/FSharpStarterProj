@@ -11,9 +11,7 @@ Based on [MyProject by Onur Gumus](https://github.com/OnurGumus/MyProject)
 ## How to start?
 1. Copy this repo to a new folder where your project will reside.
 2. Open folder in VSCode.
-3. Option "Reopen in Container" will show, accept it.
-4. You may get in an error "Cannot activate the 'Ionide for F#' extension because it depends on the 'C#' extension, which is not loaded". 
-This is caused by the order of extensions being loaded. Just click on "Reload Window" button to resolve this issue.
+3. Accept suggested "Reopen in Container".
 
 ## How to develop?
 Run `./fake.sh` (you might need to execute `chmod 755 ./fake.sh`)

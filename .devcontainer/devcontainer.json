@@ -37,8 +37,8 @@
 	// Configure tool-specific properties.
 	 "customizations": {
 		"vscode": {	
-			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
+				"ms-dotnettools.vscode-dotnet-runtime",
 				"ms-dotnettools.csharp",
 				"ionide.ionide-fsharp",
 				"ionide.mechanic",
@@ -47,7 +47,10 @@
 				"ionide.ionide-paket",
 				"ionide.ionide-fake",
 				"fernandoescolar.vscode-solution-explorer"
-			]
+			],
+            "settings": {
+                "csharp.suppressDotnetInstallWarning": true
+            }			
 		}
 	 }
 
