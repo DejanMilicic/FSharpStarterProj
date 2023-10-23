@@ -57,7 +57,7 @@
 					"editor.defaultFormatter": "Ionide.Ionide-fsharp"
 				},
 				"editor.fontFamily": "Fira Code",
-				"editor.fontLigatures": true 
+				"editor.fontLigatures": true
 				//"FSharp.verboseLogging": true				
             }			
 		}
