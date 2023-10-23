@@ -40,7 +40,7 @@
 			"extensions": [
 				"ms-dotnettools.vscode-dotnet-runtime",
 				"ms-dotnettools.csharp",
-				"ionide.ionide-fsharp",
+				"Ionide.Ionide-fsharp",
 				"ionide.mechanic",
 				"alfonsogarciacaro.vscode-template-fsharp-highlight",
 				"bierner.lit-html",
@@ -49,7 +49,16 @@
 				"fernandoescolar.vscode-solution-explorer"
 			],
             "settings": {
-                "csharp.suppressDotnetInstallWarning": true
+                "csharp.suppressDotnetInstallWarning": true,
+				"FSharp.inlayHints.disableLongTooltip": true,
+				"editor.inlayHints.enabled": "offUnlessPressed",
+				"[fsharp]": {
+					"editor.formatOnSave": true,
+					"editor.defaultFormatter": "Ionide.Ionide-fsharp"
+				},
+				"editor.fontFamily": "Fira Code",
+				"editor.fontLigatures": true 
+				//"FSharp.verboseLogging": true				
             }			
 		}
 	 }
