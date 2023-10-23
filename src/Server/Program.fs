@@ -1,1 +1,5 @@
-﻿printfn "Hello from F#"
+﻿module Server
+
+printfn "Hello from F#"
+
+let square x = x * x
