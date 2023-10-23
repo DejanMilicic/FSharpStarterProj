@@ -11,7 +11,7 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "build", "build\build.fsproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EEFF0BB1-66C1-452A-BCCC-064B71CD9DBC}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "App.Tests", "tests\App.Tests\App.Tests.fsproj", "{A1150BD8-727F-4F5C-A245-C80607060E4A}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Server.Tests", "tests\Server.Tests\Server.Tests.fsproj", "{A1150BD8-727F-4F5C-A245-C80607060E4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
