@@ -1,0 +1,4 @@
+STORAGE: NONE
+NUGET
+  remote: https://www.nuget.org/api/v2
+    FSharp.Core (7.0.400)
